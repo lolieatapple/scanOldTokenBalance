@@ -18,6 +18,8 @@ async function main() {
   const scanFunc = async (v)=>{
     console.log('check balance event', v.symbol, 'at', v.tokenWanAddr);
     const sc = new web3.eth.Contract(erc20Abi, v.tokenWanAddr);
+    const totalSupply = await sc.methods.totalSupply().call();
+    let totalBalance = web3.utils.toBN('0');
     for (let i=0; i<addresses[v.symbol].length; i++) {
       const addr = addresses[v.symbol][i];
       const balance = await sc.methods.balanceOf(addr).call();
@@ -32,7 +34,9 @@ async function main() {
       if (balance.toString() !== '0') {
         results.push(ret);
       }
+      totalBalance = totalBalance.add(web3.utils.toBN(balance.toString()));
     }
+    console.log('totalSupply', totalSupply.toString(), 'totalBalance', totalBalance.toString(), 'result', totalSupply.toString() === totalBalance.toString());
   }
 
   for (let m=0; m<tokens.length; m++) {
