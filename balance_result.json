@@ -1,0 +1,660 @@
+[
+  {
+    "symbol": "MKR",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "0.0001",
+    "rawAmount": "103000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "MKR",
+    "address": "0x8134FEf2Ee198CD5285eF1A6222806f94027E077",
+    "amount": "0.0003",
+    "rawAmount": "300000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "MKR",
+    "address": "0x001E930FD9371Ebbc19f44B710Bf8201A38e4996",
+    "amount": "0.0030",
+    "rawAmount": "3000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "SAI",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "0.0000",
+    "rawAmount": "3000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "SAI",
+    "address": "0x8134FEf2Ee198CD5285eF1A6222806f94027E077",
+    "amount": "0.0800",
+    "rawAmount": "80000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "SAI",
+    "address": "0x001E930FD9371Ebbc19f44B710Bf8201A38e4996",
+    "amount": "0.3900",
+    "rawAmount": "390000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "SAI",
+    "address": "0x383c0B96A70937Cbf0c5CDB6cA05a49169130d10",
+    "amount": "0.1800",
+    "rawAmount": "180000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "SAI",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "1.5000",
+    "rawAmount": "1500000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "AURA",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "1.8000",
+    "rawAmount": "1800003000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "AURA",
+    "address": "0x8134FEf2Ee198CD5285eF1A6222806f94027E077",
+    "amount": "0.1900",
+    "rawAmount": "190000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "AURA",
+    "address": "0x383c0B96A70937Cbf0c5CDB6cA05a49169130d10",
+    "amount": "0.1000",
+    "rawAmount": "100000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "AURA",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "1.6900",
+    "rawAmount": "1690000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "AURA",
+    "address": "0xbac92B2b69570F5FB554434ea294e1c3548Ea251",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "0.0000",
+    "rawAmount": "3000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0x8134FEf2Ee198CD5285eF1A6222806f94027E077",
+    "amount": "0.0900",
+    "rawAmount": "90000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "0.0889",
+    "rawAmount": "88887888888888890",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0x53828208f56aB1684c221501cE10AEcCC00f888a",
+    "amount": "0.0300",
+    "rawAmount": "30000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0xB00A2414eE649B436753b2A5c76551cdD5f6ff88",
+    "amount": "0.0500",
+    "rawAmount": "50000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0xbac92B2b69570F5FB554434ea294e1c3548Ea251",
+    "amount": "4.9111",
+    "rawAmount": "4911111111111111111",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LRC",
+    "address": "0x388512a09783c99a7b0CD243685b42e60b68c5E0",
+    "amount": "0.0200",
+    "rawAmount": "20000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "1.0000",
+    "rawAmount": "1000003000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0x8134FEf2Ee198CD5285eF1A6222806f94027E077",
+    "amount": "0.0900",
+    "rawAmount": "90000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0xfDed049c49BE631A8E6005e66321aB8940AB4008",
+    "amount": "0.0090",
+    "rawAmount": "9000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0xD89108f9971Ef50f2B1d20C10252aDdfF8a17510",
+    "amount": "1.0000",
+    "rawAmount": "1000000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0x33791b8768c5225B9D38850553A02e5Ff8781a61",
+    "amount": "10.0000",
+    "rawAmount": "10000000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0x53828208f56aB1684c221501cE10AEcCC00f888a",
+    "amount": "0.0760",
+    "rawAmount": "76000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0xB00A2414eE649B436753b2A5c76551cdD5f6ff88",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "1.3111",
+    "rawAmount": "1311111743111111111",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0xbac92B2b69570F5FB554434ea294e1c3548Ea251",
+    "amount": "0.3854",
+    "rawAmount": "385431256888888889",
+    "decimals": "18"
+  },
+  {
+    "symbol": "LINK",
+    "address": "0xE659B7C9D33563103b206BD7fCe7D53A5eEAaEEd",
+    "amount": "0.1000",
+    "rawAmount": "100000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "GUSD",
+    "address": "0x71D23563729f81FC535cbB772E52660CA5BE755E",
+    "amount": "0.0300",
+    "rawAmount": "3",
+    "decimals": "2"
+  },
+  {
+    "symbol": "GUSD",
+    "address": "0x27091321AC7ff9B7a725d7C9f03c7820c67B722B",
+    "amount": "0.0500",
+    "rawAmount": "5",
+    "decimals": "2"
+  },
+  {
+    "symbol": "ZXC",
+    "address": "0xd690BBF8Cd5483610021c9d1fa453DbEE08A40F4",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xbac92B2b69570F5FB554434ea294e1c3548Ea251",
+    "amount": "0.4108",
+    "rawAmount": "410817",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x4Cf0A877E906DEaD748A41aE7DA8c220E4247D9e",
+    "amount": "7.0445",
+    "rawAmount": "7044463",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x7f75388D8e700EE86F22C60A176B68c54f34BC87",
+    "amount": "74.2302",
+    "rawAmount": "74230215",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "0.2963",
+    "rawAmount": "296346",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x3d624d5c4BA0C83943EDb5dB125c5103B5336638",
+    "amount": "0.0020",
+    "rawAmount": "1965",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xAF3b61b67C0CB2081619363d1AE08Ac615a4c39E",
+    "amount": "0.0003",
+    "rawAmount": "346",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x2F70997323117114094AA7e3c87D5789E7Bb9922",
+    "amount": "0.1893",
+    "rawAmount": "189323",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x3595e606E92ca48052C29b8b4446309fb9C92aBc",
+    "amount": "361.8683",
+    "rawAmount": "361868294",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xBB002876311C5d23C5d4BCA33002230D45f050E6",
+    "amount": "0.0024",
+    "rawAmount": "2447",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x60274f61E61E17494E87df8d347aBF0C3CB7a6E7",
+    "amount": "250.0000",
+    "rawAmount": "250000000",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xde6bfC9aB6Bcc30A8BB3c734270aB81Cd451f763",
+    "amount": "0.0069",
+    "rawAmount": "6898",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xFe67a8e6284908B002E25BEcE2814B49c52803Cb",
+    "amount": "0.0030",
+    "rawAmount": "3016",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xd690BBF8Cd5483610021c9d1fa453DbEE08A40F4",
+    "amount": "0.0010",
+    "rawAmount": "961",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x52b672c79A55e4f14C83E85B05e019927346F058",
+    "amount": "10.0000",
+    "rawAmount": "10000000",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xdc071c19Fc8Ff58Fc8e369463984BFCc80d925ee",
+    "amount": "0.0026",
+    "rawAmount": "2620",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xA53F7Edc3119a1c13805BaA5686d46718c82C1D9",
+    "amount": "3.7063",
+    "rawAmount": "3706348",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x997c9bcE9b90A06F9DA94CCc5264D30793130A0D",
+    "amount": "0.0056",
+    "rawAmount": "5564",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x952D92eb3bF296e9ec8135b341162cB9Df83D760",
+    "amount": "96.1297",
+    "rawAmount": "96129703",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x87a4f2DA7d261b43e31A699c12C8d14CB9F7bD6d",
+    "amount": "0.7435",
+    "rawAmount": "743500",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x7f7D09a5366d26F65Af051F3a058d17D29D7e53f",
+    "amount": "7.0929",
+    "rawAmount": "7092941",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xBa7B701b8F26BA27650bdF84E3Bdd7Dedc34c826",
+    "amount": "0.0176",
+    "rawAmount": "17583",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x52FCcEFE574fdc27a974734d8aE4F863c50cf4C1",
+    "amount": "0.1574",
+    "rawAmount": "157427",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xFE8050Cc01c723963a5c676387f4A426e6023740",
+    "amount": "195.0466",
+    "rawAmount": "195046559",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xA60606872bf8C5c14a7Be63153BBA306fA54c852",
+    "amount": "0.0165",
+    "rawAmount": "16548",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x3E70a911ba47aD376695847A120Ae7a1fF4E22f5",
+    "amount": "0.6304",
+    "rawAmount": "630359",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xB9685B99505Bb458d740a280839a4d3FeCA7cB24",
+    "amount": "25.6984",
+    "rawAmount": "25698400",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xe697457C318BCAc535C3c5f8C0D14Fb7b5F3Cf8E",
+    "amount": "0.0010",
+    "rawAmount": "1037",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x19Ec5D29DE29dc6Cc6fD1F8ab17797848E0ebdA2",
+    "amount": "314.1550",
+    "rawAmount": "314155000",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xE138fE6daBE7c8D025BA544542332007cb1d9864",
+    "amount": "0.0025",
+    "rawAmount": "2476",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xE659B7C9D33563103b206BD7fCe7D53A5eEAaEEd",
+    "amount": "0.0100",
+    "rawAmount": "10000",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xE6b5672543A2ee2D299B38088BcE7e98Ea384E2A",
+    "amount": "0.0407",
+    "rawAmount": "40726",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x893f6c6d4F6D9fF2E4ff7b2A4a37467aA3D7f493",
+    "amount": "4.2000",
+    "rawAmount": "4199955",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x6dC2F47a3db78d6AcCbDB0F0B983579511Cb9B27",
+    "amount": "0.0047",
+    "rawAmount": "4669",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xc3135023b9E0c9a0D3E2cC030ad2c71FAC33c541",
+    "amount": "0.1938",
+    "rawAmount": "193778",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0x265cC67496F0AD48884bB4074aBfD36A4EFB759A",
+    "amount": "0.0092",
+    "rawAmount": "9175",
+    "decimals": "6"
+  },
+  {
+    "symbol": "USDT",
+    "address": "0xeCDAeCfa4DE0633f262F37e36B99Bcc7eAbb240c",
+    "amount": "0.0071",
+    "rawAmount": "7136",
+    "decimals": "6"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xd504ec92337CE63E529A8Ac60565C7f0c3870f2e",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x001E930FD9371Ebbc19f44B710Bf8201A38e4996",
+    "amount": "0.0080",
+    "rawAmount": "8000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x33F4FE3558968b93878e6243d3949522F959543B",
+    "amount": "0.0094",
+    "rawAmount": "9400000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xE9487bBEc464c197e7Fe7FF40A5256C63c34885a",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xe8B44a24c437A18860F6AFabe08a5fba71DC7F88",
+    "amount": "0.0050",
+    "rawAmount": "5000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xF6733d21F1f6B2755fa37e4bFFc640B82d713CFa",
+    "amount": "0.0988",
+    "rawAmount": "98800000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x383c0B96A70937Cbf0c5CDB6cA05a49169130d10",
+    "amount": "0.0020",
+    "rawAmount": "2000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x9771c5C8dF60872EB2a527A10Ae4B516377FfcEE",
+    "amount": "0.0032",
+    "rawAmount": "3222112322122212",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xbac92B2b69570F5FB554434ea294e1c3548Ea251",
+    "amount": "0.0000",
+    "rawAmount": "110000099999",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x060873426E9b8CC72220047ccc4230D350a55bd1",
+    "amount": "0.0001",
+    "rawAmount": "79000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xd202a41c3c13c8aeC820fDe75618d891F6b0c956",
+    "amount": "0.0001",
+    "rawAmount": "111000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x27091321AC7ff9B7a725d7C9f03c7820c67B722B",
+    "amount": "0.0331",
+    "rawAmount": "33111222222222222",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x12DF82683Fdfde0642d18f9f5198Be54DD624a0d",
+    "amount": "0.0010",
+    "rawAmount": "1000111111111111",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x8b157B3fFEAD48C8a4CDC6bddBE1C1D170049Da4",
+    "amount": "0.0200",
+    "rawAmount": "20000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x4Cf0A877E906DEaD748A41aE7DA8c220E4247D9e",
+    "amount": "0.0180",
+    "rawAmount": "18000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x952D92eb3bF296e9ec8135b341162cB9Df83D760",
+    "amount": "0.0090",
+    "rawAmount": "9000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xBa7B701b8F26BA27650bdF84E3Bdd7Dedc34c826",
+    "amount": "0.0290",
+    "rawAmount": "29000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xA60606872bf8C5c14a7Be63153BBA306fA54c852",
+    "amount": "0.0073",
+    "rawAmount": "7300000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x7f7D09a5366d26F65Af051F3a058d17D29D7e53f",
+    "amount": "0.0050",
+    "rawAmount": "5000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x034FF85a2f74F2b34a8180Ce77895fb6a2FdAAc3",
+    "amount": "0.0100",
+    "rawAmount": "10000000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xAFBd01069544262497F4f5E8595EBE21fF7CDE92",
+    "amount": "0.0219",
+    "rawAmount": "21900000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xFC1F010560e1924a195A4E481603DeF84080Ac43",
+    "amount": "0.2499",
+    "rawAmount": "249921000000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x58E5820fe36cD8964797b3C6f8494a468ab7482e",
+    "amount": "0.0001",
+    "rawAmount": "73640000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0xe475dEef0840A9823a958867a0F76fCCC65D4B79",
+    "amount": "0.0000",
+    "rawAmount": "5340000000000",
+    "decimals": "18"
+  },
+  {
+    "symbol": "WETH",
+    "address": "0x6f1E6D1502C79695F8982eaa184a280637357d02",
+    "amount": "0.0000",
+    "rawAmount": "20000000000",
+    "decimals": "18"
+  }
+]
