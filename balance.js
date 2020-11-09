@@ -5,7 +5,7 @@ const fs = require('fs');
 
 const Web3 = require('web3');
 
-const rpcUrl = "http://192.168.1.2:9545";
+const rpcUrl = "http://192.168.1.2:8545";
 
 const web3 = new Web3(new Web3.providers.HttpProvider(rpcUrl));
 

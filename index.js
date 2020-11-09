@@ -7,7 +7,7 @@ const fs = require('fs');
 
 const Web3 = require('web3');
 
-const rpcUrl = "http://192.168.1.2:9545";
+const rpcUrl = "http://192.168.1.2:8545";
 
 const web3 = new Web3(new Web3.providers.HttpProvider(rpcUrl));
 
@@ -20,8 +20,8 @@ async function main() {
   const scanFunc = async (v)=>{
     console.log('scan Transfer event', v.symbol, 'at', v.tokenWanAddr);
     const sc = new web3.eth.Contract(erc20Abi, v.tokenWanAddr);
-    const smgErc20 = new web3.eth.Contract(smgErc20Abi, '0x71d23563729f81fc535cbb772e52660ca5be755e');
-    const smgWeth = new web3.eth.Contract(smgWethAbi, '0x7a333ba427fce2e0c6dd6a2d727e5be6beb13ac2');
+    const smgErc20 = new web3.eth.Contract(smgErc20Abi, '0xfbaffb655906424d501144eefe35e28753dea037');
+    const smgWeth = new web3.eth.Contract(smgWethAbi, '0x46397994a7e1e926ea0de95557a4806d38f10b0d');
 
     addressList[v.symbol] = [];
 
