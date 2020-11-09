@@ -1,0 +1,62 @@
+[
+  {
+    "tokenWanAddr": "0x8da6633168a1525500cffc62bd24342de5651472",
+    "symbol": "MKR",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0xda16e66820a3c64c34f2b35da3f5e1d1742274cb",
+    "symbol": "SAI",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0x2a4359d8b84b270eb112b54273439ac538f32733",
+    "symbol": "ZRX",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0x8609c37af9d75c6a405702a5f06af504b304fc60",
+    "symbol": "LRC",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0xd32c5cbe6a6dbde0dc7a7842e4ac376853734388",
+    "symbol": "LINK",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0x629b94dd11ab17b3949e94127c35bc4eb8547a1b",
+    "symbol": "GUSD",
+    "decimals": "2"
+  },
+  {
+    "tokenWanAddr": "0x973c8a6096107189afaf816b7a3b7abd36cabfe3",
+    "symbol": "RVT",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0xf8ade0629562095e788e4b841de5fd93c176964f",
+    "symbol": "CVC",
+    "decimals": "8"
+  },
+  {
+    "tokenWanAddr": "0x001d6bf6855334c0bc785be56f1b7cf5e733a93d",
+    "symbol": "TUSD",
+    "decimals": "18"
+  },
+  {
+    "tokenWanAddr": "0x7ff465746e4f47e1cbbb80c864cd7de9f13337fe",
+    "symbol": "USDC",
+    "decimals": "6"
+  },
+  {
+    "tokenWanAddr": "0x56948c162aaa6cce3f196b93903318502989f573",
+    "symbol": "USDT",
+    "decimals": "6"
+  },
+  {
+    "tokenWanAddr": "0x46397994a7e1e926ea0de95557a4806d38f10b0d",
+    "symbol": "WETH",
+    "decimals": "18"
+  }
+]

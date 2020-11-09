@@ -1,6 +1,6 @@
 const wanHelper = require('./wanchain-helper');
 const balances = require('./balance_result.json');
-const tokens = require('./tokens.json');
+const tokens = require('./tokensNew.json');
 const erc20Abi = require('./ERC20.json');
 const Web3 = require('web3');
 const sleep = (ms) => { return new Promise(resolve => setTimeout(resolve, ms)) };
@@ -21,7 +21,6 @@ const nodeUrlTestnet = "https://gwan-ssl.wandevs.org:46891"; // testnet
 const nodeUrlMainnet = "https://gwan-ssl.wandevs.org:56891"; // testnet
 const nodeUrl = chainId === 1 ? nodeUrlMainnet : nodeUrlTestnet;
 
-console.log("Ready transfer to:", toAddrs);
 fromAddr = fromAddr.toLowerCase();
 
 let web3 = new Web3(new Web3.providers.HttpProvider(nodeUrl));
@@ -35,14 +34,20 @@ async function main() {
     const token = tokens.find((v)=>{
       return v.symbol === balances[i].symbol;
     })
-    await sendTx(balances[i].address.toLowerCase(), balances[i].rawAmount, nonce, token.tokenWanAddr.toLowerCase(), sc);
+    await sendTx(balances[i].address.toLowerCase(), balances[i].rawAmount, nonce, token.tokenWanAddr.toLowerCase(), balances[i].symbol);
     nonce++;
   }
 }
 
-async function sendTx(toAddr, amount, nonce, tokenAddr, sc) {
+async function sendTx(toAddr, amount, nonce, tokenAddr, symbol) {
   let sc = new web3.eth.Contract(erc20Abi, tokenAddr);
-
+  console.log('ready to send', amount, symbol, 'to', toAddr, 'tokenAddr', tokenAddr);
+  let b = await sc.methods.balanceOf(fromAddr).call();
+  console.log(symbol, 'balance', b);
+  if (Number(amount) > Number(b)) {
+    console.log(symbol, 'balance not enough');
+    process.exit(0);
+  }
   let times = 5;
   while (times > 0) {
     try {
