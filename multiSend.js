@@ -8,11 +8,9 @@ const sleep = (ms) => { return new Promise(resolve => setTimeout(resolve, ms)) }
 
 /*********** Fill Information Here ****************** */
 // Should have some WAN for gas fee
-let fromAddr = "0x58e99F9c970868A58e9a4D4050D2572d03B4f801"; 
+let fromAddr = ""; 
 
 const privateKey = ""; // without 0x prefix
-
-// let tokenSmartContractAddr = "";
 
 const chainId = 3; // 1:mainnet, 3:testnet
 /**************************************************** */
