@@ -12,7 +12,7 @@ let fromAddr = "";
 
 const privateKey = ""; // without 0x prefix
 
-const chainId = 3; // 1:mainnet, 3:testnet
+const chainId = 1; // 1:mainnet, 3:testnet
 /**************************************************** */
 
 const nodeUrlTestnet = "https://gwan-ssl.wandevs.org:46891"; // testnet
