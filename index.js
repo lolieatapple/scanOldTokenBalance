@@ -1,7 +1,8 @@
-const erc20Abi = require('./ERC20.json');
+const erc20Abi = require('./weth.json');
 const tokens = require('./tokens.json');
 const smgErc20Abi = require('./smgERC20.json');
 const smgWethAbi = require('./smgWETH.json');
+const weth = require('./weth.json');
 
 const fs = require('fs');
 
@@ -30,11 +31,35 @@ async function main() {
         fromBlock: p * blockCntPerRequest,
         toBlock: (p+1) * blockCntPerRequest,
       });
-  
+
       for (let i=0; i<ret.length; i++) {
-        console.log(v.symbol, ret[i].returnValues.to);
-        if (!addressList[v.symbol].includes(ret[i].returnValues.to)) {
-          addressList[v.symbol].push(ret[i].returnValues.to);
+        console.log(v.symbol, ret[i].returnValues._to);
+        if (!addressList[v.symbol].includes(ret[i].returnValues._to)) {
+          addressList[v.symbol].push(ret[i].returnValues._to);
+        }
+      }
+
+      const retMint = await sc.getPastEvents('TokenMintedLogger', {
+        fromBlock: p * blockCntPerRequest,
+        toBlock: (p+1) * blockCntPerRequest,
+      });
+
+      for (let i=0; i<retMint.length; i++) {
+        console.log(v.symbol, retMint[i].returnValues.account);
+        if (!addressList[v.symbol].includes(retMint[i].returnValues.account)) {
+          addressList[v.symbol].push(retMint[i].returnValues.account);
+        }
+      }
+
+      const retBurn = await sc.getPastEvents('TokenBurntLogger', {
+        fromBlock: p * blockCntPerRequest,
+        toBlock: (p+1) * blockCntPerRequest,
+      });
+
+      for (let i=0; i<retBurn.length; i++) {
+        console.log(v.symbol, retBurn[i].returnValues.account);
+        if (!addressList[v.symbol].includes(retBurn[i].returnValues.account)) {
+          addressList[v.symbol].push(retBurn[i].returnValues.account);
         }
       }
 
@@ -69,7 +94,7 @@ async function main() {
   }
 
   fs.writeFileSync('scan_result.json', JSON.stringify(addressList, null, 2));
-  console.log('all finish');
+  console.log('all finish', addressList.length);
   process.exit(0);
 }
 

@@ -44,7 +44,7 @@ async function main() {
   }
 
   fs.writeFileSync('balance_result.json', JSON.stringify(results, null, 2));
-  console.log('all finish');
+  console.log('all finish', results.length);
   process.exit(0);
 }
 
